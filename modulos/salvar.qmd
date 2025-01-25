@@ -1,0 +1,52 @@
+---
+title: "Salvamento e Impressão"
+format: html
+author: 'Bruno Saraiva'
+---
+
+Ao trabalhar no Excel, é fundamental saber como salvar e imprimir seus dados corretamente, garantindo a segurança e a apresentação do conteúdo.
+
+#### Salvamento de Arquivos
+
+1.  **Salvando pela primeira vez**:
+    -   Clique em **Arquivo \> Salvar como**.
+    -   Escolha o local onde deseja salvar o arquivo (no computador, nuvem ou outro dispositivo).
+    -   Insira um nome para o arquivo e clique em **Salvar**.
+2.  **Salvamento automático**:
+    -   O Excel possui uma funcionalidade de salvamento automático ao trabalhar com arquivos na nuvem, como o OneDrive. Certifique-se de ativá-la para evitar perda de dados.
+3.  **Atalho de teclado para salvar**:
+    -   Use `Ctrl + S` para salvar o progresso de forma rápida.
+4.  **Exportação para outros formatos**:
+    -   O Excel permite salvar seus arquivos em diferentes formatos, como:
+        -   **PDF**: Ideal para apresentações ou compartilhamento.
+        -   **CSV**: Útil para exportar dados para sistemas externos.
+    -   Para exportar, clique em **Arquivo \> Salvar como** e selecione o formato desejado.
+
+------------------------------------------------------------------------
+
+#### Impressão de Planilhas
+
+1.  **Visualização antes da impressão**:
+    -   Clique em **Arquivo \> Imprimir** para abrir a visualização de impressão.
+    -   Ajuste as configurações de página conforme necessário, como margens, orientação e escala.
+2.  **Configurações de impressão importantes**:
+    -   **Área de impressão**: Selecione o intervalo de células que deseja imprimir, depois vá em **Layout da Página \> Área de Impressão \> Definir Área de Impressão**.
+    -   **Orientação da página**:
+        -   **Retrato**: Ideal para tabelas menores.
+        -   **Paisagem**: Melhor para tabelas largas.
+    -   **Margens personalizadas**: Ajuste as margens para otimizar o espaço na folha.
+3.  **Imprimindo gráficos ou tabelas específicas**:
+    -   Selecione a área ou gráfico que deseja imprimir.
+    -   No menu **Imprimir**, escolha a opção **Selecionar Ativo**.
+4.  **Atalhos úteis para impressão**:
+    -   `Ctrl + P`: Abrir a tela de impressão rapidamente.
+
+------------------------------------------------------------------------
+
+#### Dicas Práticas
+
+-   **Salvar frequentemente**: Evite perder trabalho salvando seu progresso regularmente.
+-   **Testar a impressão**: Use a visualização de impressão para garantir que os dados estão bem organizados na folha.
+-   **Configuração padrão**: Defina configurações de impressão como padrão para economizar tempo ao lidar com grandes projetos.
+
+Com essas funcionalidades, você poderá salvar seus arquivos com segurança e apresentar suas planilhas de maneira profissional.

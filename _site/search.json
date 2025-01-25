@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EXCEL BÁSICO",
+    "section": "",
+    "text": "##Introdução"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#a-tela-de-trabalho",
+    "href": "index.html#a-tela-de-trabalho",
+    "title": "EXCEL BÁSICO",
+    "section": "A Tela de Trabalho",
+    "text": "A Tela de Trabalho"
+  },
+  {
+    "objectID": "index.html#movimentando-se-pela-planilha",
+    "href": "index.html#movimentando-se-pela-planilha",
+    "title": "EXCEL BÁSICO",
+    "section": "Movimentando-se pela Planilha",
+    "text": "Movimentando-se pela Planilha\nO Excel é um software de planilha eletrônica da Microsoft que permite organizar, calcular, analisar e apresentar dados. Os usos mais comuns do Excel são:\n\nControle financeiro\nCriação de gráficos\nCálculos automáticos\nPlanejamento e gestão de projetos\nEntre outros\n\nEste curso abordará as principais funcionalidades oferecidas pelo programa Microsoft Office Excel , que é disponibilizado de maneira paga por mês/ano e online gratuitamente. Basta se informar neste link: Microsoft Office.\n\nA Tela de Trabalho\nAo ser carregado, o Excel exibe sua tela de trabalho mostrando uma planilha em branco com o nome de Pasta 1. A tela de trabalho do Excel é composta por diversos elementos, entre os quais podemos destacar os seguintes:\n\n\n\nAréa de trabalho do Excel"
+  },
+  {
+    "objectID": "index.html#células",
+    "href": "index.html#células",
+    "title": "EXCEL BÁSICO",
+    "section": "Células",
+    "text": "Células\nUma planilha é composta por células. Uma célula é o cruzamento de uma coluna com uma linha. A função de uma célula é armazenar informações que podem ser:\n\nUm texto\nUm número\nUma fórmula que faça referência ao conteúdo de outras células\n\nCada célula é identificada por um endereço, composto pela letra da coluna e o número da linha."
+  },
+  {
+    "objectID": "index.html#faixa-de-opções",
+    "href": "index.html#faixa-de-opções",
+    "title": "EXCEL BÁSICO",
+    "section": "Faixa de Opções",
+    "text": "Faixa de Opções\nA faixa de opções organiza comandos em guias para facilitar o acesso às ferramentas. A seguir, as principais guias e suas funções:\n\nPágina Inicial\n\nFunção: Ações básicas de formatação e edição.\n\nPrincipais ferramentas:\n\nFormatação de fonte\n\nAlinhamento\n\nEstilos de célula\n\nInserção de números e filtros\n\nComandos de copiar/colar\n\n\n\n\n\nInserir\n\nFunção: Adicionar elementos visuais e organizacionais.\n\nPrincipais ferramentas:\n\nInserir tabelas\n\nGráficos\n\nImagens\n\nFormas\n\nHiperlinks\n\nGráficos dinâmicos\n\n\n\n\n\nLayout da Página\n\nFunção: Configurar o design e a aparência da planilha.\n\nPrincipais ferramentas:\n\nMargens\n\nOrientação da página\n\nEscala\n\nÁrea de impressão\n\n\n\n\n\nFórmulas\n\nFunção: Trabalhar com funções e cálculos.\n\nPrincipais ferramentas:\n\nInserir funções (matemáticas, lógicas, financeiras)\n\nGerenciar nomes\n\nVerificar erros em fórmulas\n\n\n\n\n\nDados\n\nFunção: Gerenciar e organizar dados.\n\nPrincipais ferramentas:\n\nOrdenar\n\nFiltrar\n\nRemover duplicados\n\nConsolidar\n\nImportar dados\n\n\n\n\n\nRevisão\n\nFunção: Revisar e proteger o conteúdo.\n\nPrincipais ferramentas:\n\nVerificação ortográfica\n\nComentários\n\nProteção de planilhas\n\n\n\n\n\nExibir\n\nFunção: Ajustar a forma como a planilha é exibida.\n\nPrincipais ferramentas:\n\nModos de exibição\n\nZoom\n\nOcultar/mostrar elementos (linhas de grade, títulos)\n\n\n\n\n\nGuia Arquivo\n\nFunção: Gerenciar o arquivo como um todo.\n\nPrincipais ferramentas:\n\nSalvar\n\nAbrir\n\nImprimir\n\nCompartilhar\n\nAcessar as configurações do Excel"
+  },
+  {
+    "objectID": "index.html#workbook",
+    "href": "index.html#workbook",
+    "title": "EXCEL BÁSICO",
+    "section": "Workbook",
+    "text": "Workbook\nO Excel trabalha com o conceito de pasta ou livro de trabalho, onde cada planilha é criada como se fosse uma pasta com diversas folhas de trabalho.\n\nNa maioria das vezes, você trabalhará apenas com a primeira folha da pasta.\n\nCom esse conceito, em vez de criar doze planilhas diferentes para mostrar os gastos de sua empresa no ano, você pode criar uma única planilha e utilizar doze folhas na mesma pasta."
+  },
+  {
+    "objectID": "index.html#marcadores-de-página-guias",
+    "href": "index.html#marcadores-de-página-guias",
+    "title": "EXCEL BÁSICO",
+    "section": "Marcadores de Página (Guias)",
+    "text": "Marcadores de Página (Guias)\n\nServem para selecionar uma página da planilha, de forma semelhante aos marcadores de agenda telefônica.\n\nOs marcadores recebem automaticamente os nomes Planilha1, Planilha2, etc., mas podem ser renomeados conforme necessário."
+  },
+  {
+    "objectID": "index.html#barra-de-fórmulas",
+    "href": "index.html#barra-de-fórmulas",
+    "title": "EXCEL BÁSICO",
+    "section": "Barra de Fórmulas",
+    "text": "Barra de Fórmulas\n\nA barra de fórmulas tem como finalidade:\n\nExibir o conteúdo da célula atual\n\nPermitir a edição do conteúdo de uma célula"
+  },
+  {
+    "objectID": "index.html#métodos-para-selecionar-células",
+    "href": "index.html#métodos-para-selecionar-células",
+    "title": "EXCEL BÁSICO",
+    "section": "Métodos para Selecionar Células",
+    "text": "Métodos para Selecionar Células\n\n1. Usando as teclas de seta\n\nAs teclas de seta permitem mover o retângulo de seleção célula a célula na direção indicada.\n\n\n\n2. Combinando teclas\n\nAs teclas de seta podem ser usadas em combinação com outras teclas para acelerar a movimentação.\n\n\n\n3. Usando o mouse\n\nO mouse pode ser usado para mover o indicador de célula e selecionar uma célula específica diretamente."
+  },
+  {
+    "objectID": "index.html#usando-teclas",
+    "href": "index.html#usando-teclas",
+    "title": "EXCEL BÁSICO",
+    "section": "Usando Teclas",
+    "text": "Usando Teclas\nA tabela a seguir mostra um resumo das teclas que movimentam o cursor ou o retângulo de seleção pela planilha:\n\n\n\n\n\n\n\nAção\nTeclas a serem usadas\n\n\n\n\nMover uma célula para a direita\n→\n\n\nMover uma célula para a esquerda\n←\n\n\nMover uma célula para cima\n↑\n\n\nMover uma célula para baixo\n↓\n\n\nÚltima coluna da linha atual da tabela ou planilha\nCTRL + →\n\n\nPrimeira coluna da linha atual da tabela ou planilha\nCTRL + ←\n\n\nÚltima linha da coluna atual da tabela ou planilha\nCTRL + ↓\n\n\nPrimeira linha da coluna atual da tabela ou planilha\nCTRL + ↑\n\n\nMover para célula A1\nCTRL + HOME\n\n\nCriar uma nova planilha\nCTRL + O\n\n\nSalvar o arquivo\nCTRL + B\n\n\nSelecionar todas as células da planilha ou tabela\nCTRL + A ou CTRL + T\n\n\nApagar a última ação\nCTRL + Z"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Curso de Excel",
+    "section": "",
+    "text": "Seja bem-vindo ao nosso curso de Excel! Aqui você aprenderá desde os conceitos básicos até funcionalidades avançadas, divididos em módulos para facilitar o seu aprendizado.\n\n\n\n\nIntrodução ao Excel\nAprenda os conceitos básicos e a interface do Excel.\nInserção e Manipulação de Dados\nAprenda a inserir e manipula dados no Excel.\nIntrodução a Gráfico no Excel\nPasso a passo da criação de um gráfico no Excel.\nSalvamento e Impressão\nComo salvar e imprimir seus dados corretamente\n\n\n\n\n\n\nClique em um módulo acima para acessar o conteúdo específico.\n\nSiga a sequência sugerida ou pule diretamente para o tópico de seu interesse."
+  },
+  {
+    "objectID": "home.html#módulos-do-curso",
+    "href": "home.html#módulos-do-curso",
+    "title": "Curso de Excel",
+    "section": "",
+    "text": "Introdução ao Excel\nAprenda os conceitos básicos e a interface do Excel.\nInserção e Manipulação de Dados\nAprenda a inserir e manipula dados no Excel.\nIntrodução a Gráfico no Excel\nPasso a passo da criação de um gráfico no Excel.\nSalvamento e Impressão\nComo salvar e imprimir seus dados corretamente"
+  },
+  {
+    "objectID": "home.html#como-navegar",
+    "href": "home.html#como-navegar",
+    "title": "Curso de Excel",
+    "section": "",
+    "text": "Clique em um módulo acima para acessar o conteúdo específico.\n\nSiga a sequência sugerida ou pule diretamente para o tópico de seu interesse."
+  },
+  {
+    "objectID": "home.html#recursos-extras",
+    "href": "home.html#recursos-extras",
+    "title": "Curso de Excel",
+    "section": "",
+    "text": "Atalhos do Excel\n\nExercícios Práticos"
+  },
+  {
+    "objectID": "modulos/introducao.html#a-tela-de-trabalho",
+    "href": "modulos/introducao.html#a-tela-de-trabalho",
+    "title": "EXCEL BÁSICO",
+    "section": "A Tela de Trabalho",
+    "text": "A Tela de Trabalho"
+  },
+  {
+    "objectID": "modulos/introducao.html#movimentando-se-pela-planilha",
+    "href": "modulos/introducao.html#movimentando-se-pela-planilha",
+    "title": "EXCEL BÁSICO",
+    "section": "Movimentando-se pela Planilha",
+    "text": "Movimentando-se pela Planilha\nO Excel é um software de planilha eletrônica da Microsoft que permite organizar, calcular, analisar e apresentar dados. Os usos mais comuns do Excel são:\n\nControle financeiro\nCriação de gráficos\nCálculos automáticos\nPlanejamento e gestão de projetos\nEntre outros\n\nEste curso abordará as principais funcionalidades oferecidas pelo programa Microsoft Office Excel , que é disponibilizado de maneira paga por mês/ano e online gratuitamente. Basta se informar neste link: Microsoft Office.\n\nA Tela de Trabalho\nAo ser carregado, o Excel exibe sua tela de trabalho mostrando uma planilha em branco com o nome de Pasta 1. A tela de trabalho do Excel é composta por diversos elementos, entre os quais podemos destacar os seguintes:\n\n\n\nAréa de trabalho do Excel"
+  },
+  {
+    "objectID": "modulos/introducao.html#células",
+    "href": "modulos/introducao.html#células",
+    "title": "EXCEL BÁSICO",
+    "section": "Células",
+    "text": "Células\nUma planilha é composta por células. Uma célula é o cruzamento de uma coluna com uma linha. A função de uma célula é armazenar informações que podem ser:\n\nUm texto\nUm número\nUma fórmula que faça referência ao conteúdo de outras células\n\nCada célula é identificada por um endereço, composto pela letra da coluna e o número da linha."
+  },
+  {
+    "objectID": "modulos/introducao.html#faixa-de-opções",
+    "href": "modulos/introducao.html#faixa-de-opções",
+    "title": "EXCEL BÁSICO",
+    "section": "Faixa de Opções",
+    "text": "Faixa de Opções\nA faixa de opções organiza comandos em guias para facilitar o acesso às ferramentas. A seguir, as principais guias e suas funções:\n\nPágina Inicial\n\nFunção: Ações básicas de formatação e edição.\n\nPrincipais ferramentas:\n\nFormatação de fonte\n\nAlinhamento\n\nEstilos de célula\n\nInserção de números e filtros\n\nComandos de copiar/colar\n\n\n\n\n\nInserir\n\nFunção: Adicionar elementos visuais e organizacionais.\n\nPrincipais ferramentas:\n\nInserir tabelas\n\nGráficos\n\nImagens\n\nFormas\n\nHiperlinks\n\nGráficos dinâmicos\n\n\n\n\n\nLayout da Página\n\nFunção: Configurar o design e a aparência da planilha.\n\nPrincipais ferramentas:\n\nMargens\n\nOrientação da página\n\nEscala\n\nÁrea de impressão\n\n\n\n\n\nFórmulas\n\nFunção: Trabalhar com funções e cálculos.\n\nPrincipais ferramentas:\n\nInserir funções (matemáticas, lógicas, financeiras)\n\nGerenciar nomes\n\nVerificar erros em fórmulas\n\n\n\n\n\nDados\n\nFunção: Gerenciar e organizar dados.\n\nPrincipais ferramentas:\n\nOrdenar\n\nFiltrar\n\nRemover duplicados\n\nConsolidar\n\nImportar dados\n\n\n\n\n\nRevisão\n\nFunção: Revisar e proteger o conteúdo.\n\nPrincipais ferramentas:\n\nVerificação ortográfica\n\nComentários\n\nProteção de planilhas\n\n\n\n\n\nExibir\n\nFunção: Ajustar a forma como a planilha é exibida.\n\nPrincipais ferramentas:\n\nModos de exibição\n\nZoom\n\nOcultar/mostrar elementos (linhas de grade, títulos)\n\n\n\n\n\nGuia Arquivo\n\nFunção: Gerenciar o arquivo como um todo.\n\nPrincipais ferramentas:\n\nSalvar\n\nAbrir\n\nImprimir\n\nCompartilhar\n\nAcessar as configurações do Excel"
+  },
+  {
+    "objectID": "modulos/introducao.html#workbook",
+    "href": "modulos/introducao.html#workbook",
+    "title": "EXCEL BÁSICO",
+    "section": "Workbook",
+    "text": "Workbook\nO Excel trabalha com o conceito de pasta ou livro de trabalho, onde cada planilha é criada como se fosse uma pasta com diversas folhas de trabalho.\n\nNa maioria das vezes, você trabalhará apenas com a primeira folha da pasta.\n\nCom esse conceito, em vez de criar doze planilhas diferentes para mostrar os gastos de sua empresa no ano, você pode criar uma única planilha e utilizar doze folhas na mesma pasta."
+  },
+  {
+    "objectID": "modulos/introducao.html#marcadores-de-página-guias",
+    "href": "modulos/introducao.html#marcadores-de-página-guias",
+    "title": "EXCEL BÁSICO",
+    "section": "Marcadores de Página (Guias)",
+    "text": "Marcadores de Página (Guias)\n\nServem para selecionar uma página da planilha, de forma semelhante aos marcadores de agenda telefônica.\n\nOs marcadores recebem automaticamente os nomes Planilha1, Planilha2, etc., mas podem ser renomeados conforme necessário."
+  },
+  {
+    "objectID": "modulos/introducao.html#barra-de-fórmulas",
+    "href": "modulos/introducao.html#barra-de-fórmulas",
+    "title": "EXCEL BÁSICO",
+    "section": "Barra de Fórmulas",
+    "text": "Barra de Fórmulas\n\nA barra de fórmulas tem como finalidade:\n\nExibir o conteúdo da célula atual\n\nPermitir a edição do conteúdo de uma célula"
+  },
+  {
+    "objectID": "modulos/introducao.html#métodos-para-selecionar-células",
+    "href": "modulos/introducao.html#métodos-para-selecionar-células",
+    "title": "EXCEL BÁSICO",
+    "section": "Métodos para Selecionar Células",
+    "text": "Métodos para Selecionar Células\n\n1. Usando as teclas de seta\n\nAs teclas de seta permitem mover o retângulo de seleção célula a célula na direção indicada.\n\n\n\n2. Combinando teclas\n\nAs teclas de seta podem ser usadas em combinação com outras teclas para acelerar a movimentação.\n\n\n\n3. Usando o mouse\n\nO mouse pode ser usado para mover o indicador de célula e selecionar uma célula específica diretamente."
+  },
+  {
+    "objectID": "modulos/introducao.html#usando-teclas",
+    "href": "modulos/introducao.html#usando-teclas",
+    "title": "EXCEL BÁSICO",
+    "section": "Usando Teclas",
+    "text": "Usando Teclas\nA tabela a seguir mostra um resumo das teclas que movimentam o cursor ou o retângulo de seleção pela planilha:\n\n\n\n\n\n\n\nAção\nTeclas a serem usadas\n\n\n\n\nMover uma célula para a direita\n→\n\n\nMover uma célula para a esquerda\n←\n\n\nMover uma célula para cima\n↑\n\n\nMover uma célula para baixo\n↓\n\n\nÚltima coluna da linha atual da tabela ou planilha\nCTRL + →\n\n\nPrimeira coluna da linha atual da tabela ou planilha\nCTRL + ←\n\n\nÚltima linha da coluna atual da tabela ou planilha\nCTRL + ↓\n\n\nPrimeira linha da coluna atual da tabela ou planilha\nCTRL + ↑\n\n\nMover para célula A1\nCTRL + HOME\n\n\nCriar uma nova planilha\nCTRL + O\n\n\nSalvar o arquivo\nCTRL + B\n\n\nSelecionar todas as células da planilha ou tabela\nCTRL + A ou CTRL + T\n\n\nApagar a última ação\nCTRL + Z"
+  },
+  {
+    "objectID": "modulos/graficos_basico.html",
+    "href": "modulos/graficos_basico.html",
+    "title": "Introdução a Gráfico no Excel",
+    "section": "",
+    "text": "Gráficos são ferramentas visuais que ajudam a representar dados de forma clara e intuitiva. No Excel, você pode transformar números em representações gráficas que facilitam a compreensão e análise de informações.\n\n\n\n\n\n\n\n\nGráfico de colunas\n\n\n\nIdeal para comparar valores entre diferentes categorias\nEixo horizontal mostra categorias - Eixo vertical representa valores numéricos\n\n\n\n\n\n\n\nGráfico de linhas\n\n\n\nExcelente para mostrar tendências ao longo do tempo\nÚtil para visualizar mudanças progressivas\nConecta pontos de dados com linhas\n\n\n\n\n\n\n\nGráfico de pizza\n\n\n\nMostra proporções ou percentuais de um todo\nCada fatia representa uma parte do total\nMáximo recomendado: 5-6 categorias\n\n\n\n\n\n\n\nGráfico de barras\n\n\n\nSimilar ao gráfico de colunas, mas horizontal\nBom para comparações quando os nomes das categorias são longos\n\n\n\n\n\n\nSelecione os dados que deseja visualizar\nVá para a aba “Inserir”\nEscolha o tipo de gráfico desejado\n\n\n\n\nDemonstração da criação de um gráfico de colunas\n\n\n\nPersonalize conforme necessário\n\n\n\n\n\nAdicione títulos claros\nEscolha cores que facilitem a leitura\nAjuste legendas para melhor compreensão\nUse rótulos de dados quando relevante\n\n\n\n\n\nEscolha o tipo de gráfico adequado aos seus dados\nMantenha o design limpo e simples\nEvite poluição visual\nCertifique-se de que o gráfico conte uma história clara\n\n\n\n\nExperimente criar diferentes gráficos com o mesmo conjunto de dados para entender como cada tipo representa as informações de forma única."
+  },
+  {
+    "objectID": "modulos/graficos_basico.html#introdução-aos-gráficos",
+    "href": "modulos/graficos_basico.html#introdução-aos-gráficos",
+    "title": "Introdução a Gráfico no Excel",
+    "section": "",
+    "text": "Gráficos são ferramentas visuais que ajudam a representar dados de forma clara e intuitiva. No Excel, você pode transformar números em representações gráficas que facilitam a compreensão e análise de informações."
+  },
+  {
+    "objectID": "modulos/graficos_basico.html#tipos-básicos-de-gráficos",
+    "href": "modulos/graficos_basico.html#tipos-básicos-de-gráficos",
+    "title": "Introdução a Gráfico no Excel",
+    "section": "",
+    "text": "Gráfico de colunas\n\n\n\nIdeal para comparar valores entre diferentes categorias\nEixo horizontal mostra categorias - Eixo vertical representa valores numéricos\n\n\n\n\n\n\n\nGráfico de linhas\n\n\n\nExcelente para mostrar tendências ao longo do tempo\nÚtil para visualizar mudanças progressivas\nConecta pontos de dados com linhas\n\n\n\n\n\n\n\nGráfico de pizza\n\n\n\nMostra proporções ou percentuais de um todo\nCada fatia representa uma parte do total\nMáximo recomendado: 5-6 categorias\n\n\n\n\n\n\n\nGráfico de barras\n\n\n\nSimilar ao gráfico de colunas, mas horizontal\nBom para comparações quando os nomes das categorias são longos"
+  },
+  {
+    "objectID": "modulos/graficos_basico.html#passos-para-criar-um-gráfico",
+    "href": "modulos/graficos_basico.html#passos-para-criar-um-gráfico",
+    "title": "Introdução a Gráfico no Excel",
+    "section": "",
+    "text": "Selecione os dados que deseja visualizar\nVá para a aba “Inserir”\nEscolha o tipo de gráfico desejado\n\n\n\n\nDemonstração da criação de um gráfico de colunas\n\n\n\nPersonalize conforme necessário"
+  },
+  {
+    "objectID": "modulos/graficos_basico.html#dicas-de-personalização",
+    "href": "modulos/graficos_basico.html#dicas-de-personalização",
+    "title": "Introdução a Gráfico no Excel",
+    "section": "",
+    "text": "Adicione títulos claros\nEscolha cores que facilitem a leitura\nAjuste legendas para melhor compreensão\nUse rótulos de dados quando relevante"
+  },
+  {
+    "objectID": "modulos/graficos_basico.html#boas-práticas",
+    "href": "modulos/graficos_basico.html#boas-práticas",
+    "title": "Introdução a Gráfico no Excel",
+    "section": "",
+    "text": "Escolha o tipo de gráfico adequado aos seus dados\nMantenha o design limpo e simples\nEvite poluição visual\nCertifique-se de que o gráfico conte uma história clara"
+  },
+  {
+    "objectID": "modulos/graficos_basico.html#prática-recomendada",
+    "href": "modulos/graficos_basico.html#prática-recomendada",
+    "title": "Introdução a Gráfico no Excel",
+    "section": "",
+    "text": "Experimente criar diferentes gráficos com o mesmo conjunto de dados para entender como cada tipo representa as informações de forma única."
+  },
+  {
+    "objectID": "modulos/mani.html",
+    "href": "modulos/mani.html",
+    "title": "Inserção e Manipulação de Dados",
+    "section": "",
+    "text": "Para inserir os dados, você deve selecionar a célula que receberá os dados. Em seguida, basta digitar o conteúdo.\n\n1. Tipos de entrada de dados:\n\nTexto\n\nNúmeros\n\nFórmulas\n\nComandos\n\nO Excel determina o tipo de dado com base no primeiro caractere digitado. Por padrão, o Excel alinha: - Texto à esquerda da célula - Números à direita da célula\nExemplo:\n\n\n\nTabela com texto - numero\n\n\n\n\n2. Inserindo fórmulas simples:\n\n=SOMA(): Utilizado para somar valores das células selecionadas.\n=MÉDIA(): Utilizado para calcular a média dos valores das células selecionadas.\n=CONT.NÚM(): Utilizado para contar quantas células possuem números entre as células selecionadas.\n=MÁXIMO(): Utilizado para identificar o maior valor entre as células selecionadas.\n=MÍNIMO(): Utilizado para identificar o menor valor entre as células selecionadas.\n\n\n\nAtividade prática:\nCriando uma tabela com dados fictícios\nExemplo:\n\n\n\nTabela de gastos\n\n\n\nInsira fórmulas para ver resultados na prática.\n\n\n\n\nTabela de gastos após aplicar as formulas\n\n\nEssas formulas básicas são uteis para encontrar os valores desejados de forma rápida, sem precisar digitar manualmente um a um todos os valores das células desejadas, poupando tempo quando a base de dados que se irá trabalhar for grande.\n\n\n\n3. Formatação de Células\nPara efetuar a formatação de células no EXCEL é bem simples, basta selecionar uma faixa da planilha e em seguida aplicar a formatação sobre ela.\n\nSeleção de células: Usando mouse e teclado:\n\nCom o mouse:\nPosicione o cursor na célula inicial, mantenha o botão esquerdo do mouse pressionado e arraste até a célula final.\nCom o teclado:\nPosicione o retângulo de seleção na célula inicial, pressione a tecla SHIFT e use as setas direcionais para estender a seleção.\n\n\n\n4. A barra de formatação:\n\n\n\nBarra de navegação\n\n\nA barra de formatação concentra os principais elementos de formatação no Excel, divididos em três grupos:\n\nFormatação de caracteres: Alterar fontes, aplicar negrito ou itálico.\n\nAlinhamento: Ajustar o alinhamento do conteúdo nas células.\n\nFormatação numérica: Ajustar formatos de números, como moeda, porcentagem, etc.\n\n\n\n5. Estilos básicos de formatação:\n\nAlterar fonte: Aplicar negrito, itálico e mudar o estilo da fonte.\nExemplo:\n\nCor do texto e fundo da célula: Utilize a paleta de cores.\nExemplo:\n\n\n\n\nOpções para personalização de células\n\n\nA formatação é útil para organizar os dados de uma planilha e facilitar a sua visualização, tornando-a menos poluída e mais agradável.\n\n\n\n6. Formatação condicional:\nUtilize a formatação condicional para destacar células com base em condições específicas, como valores maiores ou menores que um critério.\n1. Selecione o intervalo de células.\n\n\nEscolha uma regra predefinida (exemplo: realce de cores) ou crie uma nova regra personalizada.\n\nAjuste os critérios e aplique.\n\n\n\n\n\nAtividade prática:\nFormatar condicionalmente a tabela criada anteriormente com as seguintes condições: - Gastos maiores que R$200,00: Fundo vermelho.\n- Gastos menores que R$160,00: Fundo verde.\nExemplo inicial da tabela:\n\nTabela formatada:\n\n\nE assim ficou nossa tabela após ser aplicada a formatação condicional, onde os valores R$300,00 e R$400,00 estão com o fundo vermelho, enquanto os valores R$150,00 e R$120,00 estão em verdes, indicando que a formatação funcionou como deveria, e como o valor de R$200,00 não se encaixa em nenhuma condição aplicada, ele permanece na condição padrão. A formatação condicional é útil para organizar os dados quando se trabalha com uma base de dados grande e, nos dando a informação que buscamos sem precisarmos ficar analisando célula por célula, facilitando o trabalho e tornando-o mais rápido e eficaz."
+  },
+  {
+    "objectID": "modulos/salvar.html",
+    "href": "modulos/salvar.html",
+    "title": "Salvamento e Impressão",
+    "section": "",
+    "text": "Ao trabalhar no Excel, é fundamental saber como salvar e imprimir seus dados corretamente, garantindo a segurança e a apresentação do conteúdo.\n\nSalvamento de Arquivos\n\nSalvando pela primeira vez:\n\nClique em Arquivo &gt; Salvar como.\nEscolha o local onde deseja salvar o arquivo (no computador, nuvem ou outro dispositivo).\nInsira um nome para o arquivo e clique em Salvar.\n\nSalvamento automático:\n\nO Excel possui uma funcionalidade de salvamento automático ao trabalhar com arquivos na nuvem, como o OneDrive. Certifique-se de ativá-la para evitar perda de dados.\n\nAtalho de teclado para salvar:\n\nUse Ctrl + S para salvar o progresso de forma rápida.\n\nExportação para outros formatos:\n\nO Excel permite salvar seus arquivos em diferentes formatos, como:\n\nPDF: Ideal para apresentações ou compartilhamento.\nCSV: Útil para exportar dados para sistemas externos.\n\nPara exportar, clique em Arquivo &gt; Salvar como e selecione o formato desejado.\n\n\n\n\n\nImpressão de Planilhas\n\nVisualização antes da impressão:\n\nClique em Arquivo &gt; Imprimir para abrir a visualização de impressão.\nAjuste as configurações de página conforme necessário, como margens, orientação e escala.\n\nConfigurações de impressão importantes:\n\nÁrea de impressão: Selecione o intervalo de células que deseja imprimir, depois vá em Layout da Página &gt; Área de Impressão &gt; Definir Área de Impressão.\nOrientação da página:\n\nRetrato: Ideal para tabelas menores.\nPaisagem: Melhor para tabelas largas.\n\nMargens personalizadas: Ajuste as margens para otimizar o espaço na folha.\n\nImprimindo gráficos ou tabelas específicas:\n\nSelecione a área ou gráfico que deseja imprimir.\nNo menu Imprimir, escolha a opção Selecionar Ativo.\n\nAtalhos úteis para impressão:\n\nCtrl + P: Abrir a tela de impressão rapidamente.\n\n\n\n\n\nDicas Práticas\n\nSalvar frequentemente: Evite perder trabalho salvando seu progresso regularmente.\nTestar a impressão: Use a visualização de impressão para garantir que os dados estão bem organizados na folha.\nConfiguração padrão: Defina configurações de impressão como padrão para economizar tempo ao lidar com grandes projetos.\n\nCom essas funcionalidades, você poderá salvar seus arquivos com segurança e apresentar suas planilhas de maneira profissional."
+  }
+]

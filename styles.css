@@ -1,0 +1,20 @@
+/* css styles */
+/* Cor de fundo da navbar */
+.navbar {
+  background-color: #234e1d; /* verde similar ao Excel */
+}
+
+/* Cor do texto na navbar */
+.navbar a {
+  color: #ffffff !important; /* Branco para contraste */
+}
+
+/* Cor do texto ao passar o mouse */
+.navbar a:hover {
+  color: #FFD700 !important; /* Dourado */
+}
+
+/* Bordas ou sombra (opcional) */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+}

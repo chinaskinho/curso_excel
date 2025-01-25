@@ -1,0 +1,71 @@
+---
+title: "Introdução a Gráfico no Excel"
+format: html
+author: 'Bruno Saraiva'
+---
+
+# Módulo: Criando Gráficos no Excel
+
+## Introdução aos Gráficos
+
+Gráficos são ferramentas visuais que ajudam a representar dados de forma clara e intuitiva. No Excel, você pode transformar números em representações gráficas que facilitam a compreensão e análise de informações.
+
+## Tipos Básicos de Gráficos
+
+### 1. Gráfico de Colunas
+
+![Gráfico de colunas](coluna.png)
+
+-   Ideal para comparar valores entre diferentes categorias
+-   Eixo horizontal mostra categorias - Eixo vertical representa valores numéricos
+
+### 2. Gráfico de Linhas
+
+![Gráfico de linhas](Linechart.png)
+
+-   Excelente para mostrar tendências ao longo do tempo
+-   Útil para visualizar mudanças progressivas
+-   Conecta pontos de dados com linhas
+
+### 3. Gráfico de Pizza
+
+![Gráfico de pizza](piza.jpg)
+
+-   Mostra proporções ou percentuais de um todo
+-   Cada fatia representa uma parte do total
+-   Máximo recomendado: 5-6 categorias
+
+### 4. Gráfico de Barras
+
+![Gráfico de barras](barra.png)
+
+-   Similar ao gráfico de colunas, mas horizontal
+-   Bom para comparações quando os nomes das categorias são longos
+
+## Passos para Criar um Gráfico
+
+1.  Selecione os dados que deseja visualizar
+2.  Vá para a aba "Inserir"
+3.  Escolha o tipo de gráfico desejado
+
+![Demonstração da criação de um gráfico de colunas](inserir_grafico.gif)
+
+4.  Personalize conforme necessário
+
+## Dicas de Personalização
+
+-   Adicione títulos claros
+-   Escolha cores que facilitem a leitura
+-   Ajuste legendas para melhor compreensão
+-   Use rótulos de dados quando relevante
+
+## Boas Práticas
+
+-   Escolha o tipo de gráfico adequado aos seus dados
+-   Mantenha o design limpo e simples
+-   Evite poluição visual
+-   Certifique-se de que o gráfico conte uma história clara
+
+## Prática Recomendada
+
+Experimente criar diferentes gráficos com o mesmo conjunto de dados para entender como cada tipo representa as informações de forma única.

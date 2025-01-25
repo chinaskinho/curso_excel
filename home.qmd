@@ -1,0 +1,34 @@
+---
+title: "Curso de Excel"
+format: html
+editor: visual
+---
+
+# Bem-vindo ao Curso de Excel!
+
+Seja bem-vindo ao nosso curso de Excel! Aqui você aprenderá desde os conceitos básicos até funcionalidades avançadas, divididos em módulos para facilitar o seu aprendizado.
+
+------------------------------------------------------------------------
+
+## Módulos do Curso
+
+1.  [Introdução ao Excel](modulos/introducao.qmd)\
+    Aprenda os conceitos básicos e a interface do Excel.
+
+2.  [Inserção e Manipulação de Dados](modulos/mani.qmd)\
+    Aprenda a inserir e manipula dados no Excel.
+
+3.  [Introdução a Gráfico no Excel](modulos/graficos_basico.qmd)\
+    Passo a passo da criação de um gráfico no Excel.
+
+4.  [Salvamento e Impressão](modulos/salvar.qmd)\
+    Como salvar e imprimir seus dados corretamente
+
+------------------------------------------------------------------------
+
+## Como Navegar?
+
+-   Clique em um módulo acima para acessar o conteúdo específico.\
+-   Siga a sequência sugerida ou pule diretamente para o tópico de seu interesse.\
+
+------------------------------------------------------------------------

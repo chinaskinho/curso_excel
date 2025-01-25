@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>EXCEL BÁSICO – CURSO DE EXCEL</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">CURSO DE EXCEL</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução">Introdução</a></li>
+  <li><a href="#a-tela-de-trabalho" id="toc-a-tela-de-trabalho" class="nav-link" data-scroll-target="#a-tela-de-trabalho">A Tela de Trabalho</a></li>
+  <li><a href="#movimentando-se-pela-planilha" id="toc-movimentando-se-pela-planilha" class="nav-link" data-scroll-target="#movimentando-se-pela-planilha">Movimentando-se pela Planilha</a>
+  <ul class="collapse">
+  <li><a href="#a-tela-de-trabalho-1" id="toc-a-tela-de-trabalho-1" class="nav-link" data-scroll-target="#a-tela-de-trabalho-1">A Tela de Trabalho</a></li>
+  </ul></li>
+  <li><a href="#elementos-do-excel" id="toc-elementos-do-excel" class="nav-link" data-scroll-target="#elementos-do-excel">Elementos do Excel</a>
+  <ul class="collapse">
+  <li><a href="#células" id="toc-células" class="nav-link" data-scroll-target="#células">Células</a></li>
+  <li><a href="#faixa-de-opções" id="toc-faixa-de-opções" class="nav-link" data-scroll-target="#faixa-de-opções">Faixa de Opções</a>
+  <ul class="collapse">
+  <li><a href="#página-inicial" id="toc-página-inicial" class="nav-link" data-scroll-target="#página-inicial">Página Inicial</a></li>
+  <li><a href="#inserir" id="toc-inserir" class="nav-link" data-scroll-target="#inserir">Inserir</a></li>
+  <li><a href="#layout-da-página" id="toc-layout-da-página" class="nav-link" data-scroll-target="#layout-da-página">Layout da Página</a></li>
+  <li><a href="#fórmulas" id="toc-fórmulas" class="nav-link" data-scroll-target="#fórmulas">Fórmulas</a></li>
+  <li><a href="#dados" id="toc-dados" class="nav-link" data-scroll-target="#dados">Dados</a></li>
+  <li><a href="#revisão" id="toc-revisão" class="nav-link" data-scroll-target="#revisão">Revisão</a></li>
+  <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir">Exibir</a></li>
+  <li><a href="#guia-arquivo" id="toc-guia-arquivo" class="nav-link" data-scroll-target="#guia-arquivo">Guia Arquivo</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#workbook-e-elementos-da-planilha" id="toc-workbook-e-elementos-da-planilha" class="nav-link" data-scroll-target="#workbook-e-elementos-da-planilha">Workbook e Elementos da Planilha</a>
+  <ul class="collapse">
+  <li><a href="#workbook" id="toc-workbook" class="nav-link" data-scroll-target="#workbook">Workbook</a></li>
+  <li><a href="#marcadores-de-página-guias" id="toc-marcadores-de-página-guias" class="nav-link" data-scroll-target="#marcadores-de-página-guias">Marcadores de Página (Guias)</a></li>
+  <li><a href="#barra-de-fórmulas" id="toc-barra-de-fórmulas" class="nav-link" data-scroll-target="#barra-de-fórmulas">Barra de Fórmulas</a></li>
+  </ul></li>
+  <li><a href="#movimentando-se-pela-planilha-1" id="toc-movimentando-se-pela-planilha-1" class="nav-link" data-scroll-target="#movimentando-se-pela-planilha-1">Movimentando-se pela Planilha</a>
+  <ul class="collapse">
+  <li><a href="#métodos-para-selecionar-células" id="toc-métodos-para-selecionar-células" class="nav-link" data-scroll-target="#métodos-para-selecionar-células">Métodos para Selecionar Células</a>
+  <ul class="collapse">
+  <li><a href="#usando-as-teclas-de-seta" id="toc-usando-as-teclas-de-seta" class="nav-link" data-scroll-target="#usando-as-teclas-de-seta">1. Usando as teclas de seta</a></li>
+  <li><a href="#combinando-teclas" id="toc-combinando-teclas" class="nav-link" data-scroll-target="#combinando-teclas">2. Combinando teclas</a></li>
+  <li><a href="#usando-o-mouse" id="toc-usando-o-mouse" class="nav-link" data-scroll-target="#usando-o-mouse">3. Usando o mouse</a></li>
+  </ul></li>
+  <li><a href="#usando-teclas" id="toc-usando-teclas" class="nav-link" data-scroll-target="#usando-teclas">Usando Teclas</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">EXCEL BÁSICO</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introdução" class="level2">
+<h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
+</section>
+<section id="a-tela-de-trabalho" class="level2">
+<h2 class="anchored" data-anchor-id="a-tela-de-trabalho">A Tela de Trabalho</h2>
+</section>
+<section id="movimentando-se-pela-planilha" class="level2">
+<h2 class="anchored" data-anchor-id="movimentando-se-pela-planilha">Movimentando-se pela Planilha</h2>
+<p>O Excel é um software de planilha eletrônica da Microsoft que permite organizar, calcular, analisar e apresentar dados. Os usos mais comuns do Excel são:</p>
+<ul>
+<li><p>Controle financeiro</p></li>
+<li><p>Criação de gráficos</p></li>
+<li><p>Cálculos automáticos</p></li>
+<li><p>Planejamento e gestão de projetos</p></li>
+<li><p>Entre outros</p></li>
+</ul>
+<p>Este curso abordará as principais funcionalidades oferecidas pelo programa <strong>Microsoft Office Excel</strong> , que é disponibilizado de maneira paga por mês/ano e online gratuitamente. Basta se informar neste link: <a href="https://www.microsoft.com/pt-br/">Microsoft Office</a>.</p>
+<section id="a-tela-de-trabalho-1" class="level3">
+<h3 class="anchored" data-anchor-id="a-tela-de-trabalho-1">A Tela de Trabalho</h3>
+<p>Ao ser carregado, o Excel exibe sua tela de trabalho mostrando uma planilha em branco com o nome de <em>Pasta 1</em>. A tela de trabalho do Excel é composta por diversos elementos, entre os quais podemos destacar os seguintes:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="tela_trab.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Aréa de trabalho do Excel</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="elementos-do-excel" class="level1">
+<h1>Elementos do Excel</h1>
+<section id="células" class="level2">
+<h2 class="anchored" data-anchor-id="células">Células</h2>
+<p>Uma planilha é composta por <strong>células</strong>. Uma célula é o cruzamento de uma <strong>coluna</strong> com uma <strong>linha</strong>. A função de uma célula é armazenar informações que podem ser:</p>
+<ul>
+<li>Um texto</li>
+<li>Um número</li>
+<li>Uma fórmula que faça referência ao conteúdo de outras células</li>
+</ul>
+<p>Cada célula é identificada por um <strong>endereço</strong>, composto pela <strong>letra da coluna</strong> e o <strong>número da linha</strong>.</p>
+<hr>
+</section>
+<section id="faixa-de-opções" class="level2">
+<h2 class="anchored" data-anchor-id="faixa-de-opções">Faixa de Opções</h2>
+<p>A faixa de opções organiza comandos em guias para facilitar o acesso às ferramentas. A seguir, as principais guias e suas funções:</p>
+<section id="página-inicial" class="level3">
+<h3 class="anchored" data-anchor-id="página-inicial">Página Inicial</h3>
+<ul>
+<li><strong>Função</strong>: Ações básicas de formatação e edição.<br>
+</li>
+<li><strong>Principais ferramentas</strong>:
+<ul>
+<li>Formatação de fonte<br>
+</li>
+<li>Alinhamento<br>
+</li>
+<li>Estilos de célula<br>
+</li>
+<li>Inserção de números e filtros<br>
+</li>
+<li>Comandos de copiar/colar</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="inserir" class="level3">
+<h3 class="anchored" data-anchor-id="inserir">Inserir</h3>
+<ul>
+<li><strong>Função</strong>: Adicionar elementos visuais e organizacionais.<br>
+</li>
+<li><strong>Principais ferramentas</strong>:
+<ul>
+<li>Inserir tabelas<br>
+</li>
+<li>Gráficos<br>
+</li>
+<li>Imagens<br>
+</li>
+<li>Formas<br>
+</li>
+<li>Hiperlinks<br>
+</li>
+<li>Gráficos dinâmicos</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="layout-da-página" class="level3">
+<h3 class="anchored" data-anchor-id="layout-da-página">Layout da Página</h3>
+<ul>
+<li><strong>Função</strong>: Configurar o design e a aparência da planilha.<br>
+</li>
+<li><strong>Principais ferramentas</strong>:
+<ul>
+<li>Margens<br>
+</li>
+<li>Orientação da página<br>
+</li>
+<li>Escala<br>
+</li>
+<li>Área de impressão</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="fórmulas" class="level3">
+<h3 class="anchored" data-anchor-id="fórmulas">Fórmulas</h3>
+<ul>
+<li><strong>Função</strong>: Trabalhar com funções e cálculos.<br>
+</li>
+<li><strong>Principais ferramentas</strong>:
+<ul>
+<li>Inserir funções (matemáticas, lógicas, financeiras)<br>
+</li>
+<li>Gerenciar nomes<br>
+</li>
+<li>Verificar erros em fórmulas</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="dados" class="level3">
+<h3 class="anchored" data-anchor-id="dados">Dados</h3>
+<ul>
+<li><strong>Função</strong>: Gerenciar e organizar dados.<br>
+</li>
+<li><strong>Principais ferramentas</strong>:
+<ul>
+<li>Ordenar<br>
+</li>
+<li>Filtrar<br>
+</li>
+<li>Remover duplicados<br>
+</li>
+<li>Consolidar<br>
+</li>
+<li>Importar dados</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="revisão" class="level3">
+<h3 class="anchored" data-anchor-id="revisão">Revisão</h3>
+<ul>
+<li><strong>Função</strong>: Revisar e proteger o conteúdo.<br>
+</li>
+<li><strong>Principais ferramentas</strong>:
+<ul>
+<li>Verificação ortográfica<br>
+</li>
+<li>Comentários<br>
+</li>
+<li>Proteção de planilhas</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="exibir" class="level3">
+<h3 class="anchored" data-anchor-id="exibir">Exibir</h3>
+<ul>
+<li><strong>Função</strong>: Ajustar a forma como a planilha é exibida.<br>
+</li>
+<li><strong>Principais ferramentas</strong>:
+<ul>
+<li>Modos de exibição<br>
+</li>
+<li>Zoom<br>
+</li>
+<li>Ocultar/mostrar elementos (linhas de grade, títulos)</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="guia-arquivo" class="level3">
+<h3 class="anchored" data-anchor-id="guia-arquivo">Guia Arquivo</h3>
+<ul>
+<li><strong>Função</strong>: Gerenciar o arquivo como um todo.<br>
+</li>
+<li><strong>Principais ferramentas</strong>:
+<ul>
+<li>Salvar<br>
+</li>
+<li>Abrir<br>
+</li>
+<li>Imprimir<br>
+</li>
+<li>Compartilhar<br>
+</li>
+<li>Acessar as configurações do Excel</li>
+</ul></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="workbook-e-elementos-da-planilha" class="level1">
+<h1>Workbook e Elementos da Planilha</h1>
+<section id="workbook" class="level2">
+<h2 class="anchored" data-anchor-id="workbook">Workbook</h2>
+<p>O Excel trabalha com o conceito de <strong>pasta</strong> ou <strong>livro de trabalho</strong>, onde cada planilha é criada como se fosse uma pasta com diversas folhas de trabalho.</p>
+<ul>
+<li>Na maioria das vezes, você trabalhará apenas com a <strong>primeira folha</strong> da pasta.<br>
+</li>
+<li>Com esse conceito, em vez de criar doze planilhas diferentes para mostrar os gastos de sua empresa no ano, você pode criar <strong>uma única planilha</strong> e utilizar <strong>doze folhas</strong> na mesma pasta.</li>
+</ul>
+<hr>
+</section>
+<section id="marcadores-de-página-guias" class="level2">
+<h2 class="anchored" data-anchor-id="marcadores-de-página-guias">Marcadores de Página (Guias)</h2>
+<ul>
+<li>Servem para <strong>selecionar uma página</strong> da planilha, de forma semelhante aos marcadores de agenda telefônica.<br>
+</li>
+<li>Os marcadores recebem automaticamente os nomes <strong>Planilha1</strong>, <strong>Planilha2</strong>, etc., mas podem ser <strong>renomeados</strong> conforme necessário.</li>
+</ul>
+<hr>
+</section>
+<section id="barra-de-fórmulas" class="level2">
+<h2 class="anchored" data-anchor-id="barra-de-fórmulas">Barra de Fórmulas</h2>
+<ul>
+<li>A barra de fórmulas tem como finalidade:
+<ul>
+<li><strong>Exibir</strong> o conteúdo da célula atual<br>
+</li>
+<li><strong>Permitir a edição</strong> do conteúdo de uma célula</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="movimentando-se-pela-planilha-1" class="level1">
+<h1>Movimentando-se pela Planilha</h1>
+<p>Para que uma célula possa receber algum tipo de dado ou formatação, ela precisa ser <strong>selecionada previamente</strong>, ou seja, tornar-se a <strong>célula ativa</strong>.</p>
+<section id="métodos-para-selecionar-células" class="level2">
+<h2 class="anchored" data-anchor-id="métodos-para-selecionar-células">Métodos para Selecionar Células</h2>
+<section id="usando-as-teclas-de-seta" class="level3">
+<h3 class="anchored" data-anchor-id="usando-as-teclas-de-seta">1. Usando as teclas de seta</h3>
+<ul>
+<li>As teclas de seta permitem mover o retângulo de seleção célula a célula na direção indicada.</li>
+</ul>
+</section>
+<section id="combinando-teclas" class="level3">
+<h3 class="anchored" data-anchor-id="combinando-teclas">2. Combinando teclas</h3>
+<ul>
+<li>As teclas de seta podem ser usadas em <strong>combinação com outras teclas</strong> para acelerar a movimentação.</li>
+</ul>
+</section>
+<section id="usando-o-mouse" class="level3">
+<h3 class="anchored" data-anchor-id="usando-o-mouse">3. Usando o mouse</h3>
+<ul>
+<li>O mouse pode ser usado para mover o indicador de célula e selecionar uma célula específica diretamente.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="usando-teclas" class="level2">
+<h2 class="anchored" data-anchor-id="usando-teclas">Usando Teclas</h2>
+<p>A tabela a seguir mostra um resumo das teclas que movimentam o cursor ou o retângulo de seleção pela planilha:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Ação</strong></th>
+<th><strong>Teclas a serem usadas</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mover uma célula para a direita</td>
+<td><code>→</code></td>
+</tr>
+<tr class="even">
+<td>Mover uma célula para a esquerda</td>
+<td><code>←</code></td>
+</tr>
+<tr class="odd">
+<td>Mover uma célula para cima</td>
+<td><code>↑</code></td>
+</tr>
+<tr class="even">
+<td>Mover uma célula para baixo</td>
+<td><code>↓</code></td>
+</tr>
+<tr class="odd">
+<td>Última coluna da linha atual da tabela ou planilha</td>
+<td><code>CTRL</code> + <code>→</code></td>
+</tr>
+<tr class="even">
+<td>Primeira coluna da linha atual da tabela ou planilha</td>
+<td><code>CTRL</code> + <code>←</code></td>
+</tr>
+<tr class="odd">
+<td>Última linha da coluna atual da tabela ou planilha</td>
+<td><code>CTRL</code> + <code>↓</code></td>
+</tr>
+<tr class="even">
+<td>Primeira linha da coluna atual da tabela ou planilha</td>
+<td><code>CTRL</code> + <code>↑</code></td>
+</tr>
+<tr class="odd">
+<td>Mover para célula A1</td>
+<td><code>CTRL</code> + <code>HOME</code></td>
+</tr>
+<tr class="even">
+<td>Criar uma nova planilha</td>
+<td><code>CTRL</code> + <code>O</code></td>
+</tr>
+<tr class="odd">
+<td>Salvar o arquivo</td>
+<td><code>CTRL</code> + <code>B</code></td>
+</tr>
+<tr class="even">
+<td>Selecionar todas as células da planilha ou tabela</td>
+<td><code>CTRL</code> + <code>A</code> ou <code>CTRL</code> + <code>T</code></td>
+</tr>
+<tr class="odd">
+<td>Apagar a última ação</td>
+<td><code>CTRL</code> + <code>Z</code></td>
+</tr>
+</tbody>
+</table>
+<pre><code></code></pre>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

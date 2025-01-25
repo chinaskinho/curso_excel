@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CURSO DE EXCEL"
+  navbar:
+    left:
+      - href: home.qmd
+        text: Home
+      
+      
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: true
+
+editor: visual
+
+publish:
+  - name: "curso-excel"
+    server: gh-pages
